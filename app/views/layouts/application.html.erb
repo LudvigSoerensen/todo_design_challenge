@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TodoApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<p id="notice"><%= notice %></p>
+<p id="error"><%= error %></p>
+<p id="success"><%= success %></p>
+
+
+<%= yield %>
+
+</body>
+</html>
